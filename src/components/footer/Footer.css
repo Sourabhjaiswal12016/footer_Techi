@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    display: flex;
+}
+.footer-heading{
+margin-top: 10px;
+margin-right: -160px;
+margin-left: 30px;
+color: #fff;
+}
+.line{
+    margin-top: 30px;
+    margin-left: 13vw;
+    width: 80%;
+    height: 2px;
+    background-color: rgb(122, 118, 118);
+}
+
+/* now from below styling left ,  right parts of footer */
+.footerRight{
+    background: rgb(40, 40, 40);
+    color: #fff;
+    width: 50vw;
+}
+.footerLeft{
+    background: rgb(40, 40, 40);
+    color: #fff;
+    width: 56vw;
+}
+.lineAndAllTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.all-two-container{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    background-color:black;
+    margin-left: 3.5rem;
+}
+
+/* putting a vertical line in between left right and mid for separation */
+.vertical-line{
+    
+    height: 40vh;
+    width: 2px;
+    background:grey;
+    opacity: 0.5;
+}
+/*designing left part of footer*/
+
+.logo{
+    height: 90px;
+    width: 180px;
+    border-radius: 10%;
+    margin-left: 5px;
+}
+.footerLeft{
+    display: flex;
+}
+.address-text{
+  /* margin-left: 0; */
+  /* padding-left: 0; */
+  font-size: 14px;
+  font-weight: 600;
+
+}
+.name-address{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.company-name,.company-address{
+    margin-left: 36px;
+}
+
+/*designing right part of footer*/
+
+.follow{
+    margin-top: 27px;
+    margin-left: -330px;
+    color:royalblue;
+}
+.follow.h3{
+    margin-left: 3px;
+}
+.social-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    margin-left: 23px;
+    padding-top: 7px;
+    background: #fff;
+    
+}
+/* designing social medias */
+.social-medias{
+ margin-left: -319px;
+ margin-top: 20px;
+}
+.email-phone{
+    display: flex;
+    margin-left: 90px;
+    gap: 40px;
+    margin-top: 14px;
+   
+}
+.email-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    margin-left: -150px;
+    padding-top: 7px;
+    background: #fff;
+}
+.phone-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    margin-left: -105px;
+    padding-top: 7px;
+    background: #fff;
+
+}
+.contact{
+    margin-top: 20px;
+    margin-left: -336px;
+    color:royalblue;
+}
+.email-bottom{
+ color: #fff;
+}
+.contact-bottom{
+    color: #fff;
+}
+
+
