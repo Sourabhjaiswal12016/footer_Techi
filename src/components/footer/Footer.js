@@ -34,7 +34,7 @@ const Footer = () => {
       <a href='mailto:techiecos@gmail.com' className='email'><i className="fa-solid fa-envelope "></i> : techiecos@gmail.com</a>
       </div>
       <div className='phone'>
-      <a href='tel:7068092907' className='phone'><i className="fa-solid fa-phone "> : +91 9971732962</i></a>
+      <a href='tel:9971732962' className='phone'><i className="fa-solid fa-phone "> : +91 9971732962</i></a>
       </div>
     </div>
     </section>
