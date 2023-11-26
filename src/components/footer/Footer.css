@@ -2,151 +2,128 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background: rgb(30, 30, 30); */
+    color: #fff;
 }
-.footer{
+
+.main-container{
+
+    width: 100vw;
+    height: 35vh;
+    background:rgb(50, 50, 50);
+    margin: auto;
+    margin-top: 2rem;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
 }
-.footer-heading{
-margin-top: 10px;
-margin-right: -160px;
-margin-left: 30px;
-color: #fff;
+.container{
+    flex: 1;
+    /* border: 1px solid grey; */
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* first container styling */
+.logo{
+    height: 5rem;
+    width: 10rem;
+    object-fit:unset;
+    border-radius: 20%;
+    background: rgb(50, 50, 50)
+}
+.social-medias{
+    display: flex;
+    margin-top: 4px;
+    margin-left: 15px;
+    gap: 2rem;
 }
 .line{
-    margin-top: 30px;
-    margin-left: 13vw;
-    width: 80%;
+    width: 9rem;
     height: 2px;
-    background-color: rgb(122, 118, 118);
+    margin-top: 7px;
+    background: rgb(20, 20, 20);
+}
+.social{
+    margin-left: 1px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+.social:hover{
+    transform: scale(1.6);
+    color: #ff004f;
 }
 
-/* now from below styling left ,  right parts of footer */
-.footerRight{
-    background: rgb(40, 40, 40);
-    color: #fff;
-    width: 50vw;
-}
-.footerLeft{
-    background: rgb(40, 40, 40);
-    color: #fff;
-    width: 56vw;
-}
-.lineAndAllTwo{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.all-two-container{
-    display: flex;
-    height: 40vh;
-    width: 100vw;
-    background-color:black;
-    margin-left: 3.5rem;
-}
+/* second container styling */
 
-/* putting a vertical line in between left right and mid for separation */
-.vertical-line{
-    
-    height: 40vh;
-    width: 2px;
-    background:grey;
-    opacity: 0.5;
+.com-name {
+    color: rgb(14, 133, 14);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-right:26px;
 }
-/*designing left part of footer*/
-
-.logo{
-    height: 90px;
-    width: 180px;
-    border-radius: 10%;
-    margin-left: 5px;
-}
-.footerLeft{
-    display: flex;
-}
-.address-text{
-  margin-left: 35px;
-  /* padding-left: 0; */
-  font-size: 14px;
-  font-weight: 600;
-
-}
-.name-address{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-}
-.company-name,.company-address{
-    margin-left: 36px;
-}
-.second-line-address{
-    margin-left: -214px;
-}
-.third-line-address{
-    margin-left: -265px;
-}
-.fourth-line-address{
-    margin-left: -190px;
-}
-/*designing right part of footer*/
-
-.follow{
-    margin-top: 27px;
-    margin-left: -330px;
-    color:royalblue;
-}
-.follow.h3{
-    margin-left: 3px;
-}
-.social-icon{
-    height: 30px;
-    width: 30px;
-    border-radius: 10%;
-    margin-left: 23px;
-    padding-top: 7px;
-    background: #fff;
+.com-address{
+    font-size: 0.8em;
     
 }
-/* designing social medias */
-.social-medias{
- margin-left: -319px;
- margin-top: 20px;
-}
-.email-phone{
+.com-address-title{
     display: flex;
-    margin-left: 90px;
-    gap: 40px;
-    margin-top: 14px;
-   
+    gap: 6px;
+    margin-left: 40px;
+    
 }
-.email-icon{
-    height: 30px;
-    width: 30px;
-    border-radius: 10%;
-    margin-left: -150px;
-    padding-top: 7px;
-    background: #fff;
+.location-icon{
+    margin-top: 10px;
+    margin-left: 4px;
 }
-.phone-icon{
-    height: 30px;
-    width: 30px;
-    border-radius: 10%;
-    margin-left: -105px;
-    padding-top: 7px;
-    background: #fff;
-
+.location-heading{
+    margin-right: 1px;
+    /* background: rgb(40, 40, 40); */
 }
-.contact{
-    margin-top: 20px;
-    margin-left: -336px;
-    color:royalblue;
+.find{
+    color: #ff004f;
 }
-.email-bottom{
- color: #fff;
+.com-address{
+    margin-top: 2px;
 }
-.contact-bottom{
-    color: #fff;
+.com-address2{
+    font-size: 0.8em;
+}
+.com-address3{
+    font-size: 0.8em;
 }
 
+.address-lines{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4.5rem;
+}
+/* third container styling */
+.third-container{
+    /* margin-top: 32px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+ 
+}
+.email{
+    letter-spacing: 1px;
+    text-decoration: none;
 
+}
+.phone{
+    letter-spacing: 1px;
+}
+.Contact{
+    /* margin-right: 6rem; */
+    color:#ff004f;
+}
+.phone{
+    margin-right: 0.8rem;
+}
